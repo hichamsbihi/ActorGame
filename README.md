@@ -30,8 +30,8 @@ L’objectif est de maintenir un taux de randomness équilibré à ~50% :
      intégration de redis pour la persisante du hash de la question et réponse 
 
 --------------------------------------------Frontend-----------------------------------------------------------------------
-le front est si simple: developper en reactjs 
-la composition du projet en composant 
+
+le front est si simple: développer en reactjs la composition du projet est comme suit: 
   - Game contenaire du card play qui affiche les resulatant et le refresh game
   - CardPlay affiche l'image du film et de l'acteur en question
   - Home une jolie interface pour avoir envie de jouer

@@ -30,9 +30,9 @@ L’objectif est de maintenir un taux de randomness équilibré à ~50% :
 --------------------------------------------Frontend-----------------------------------------------------------------------
 le front est si simple: developper en reactjs 
 la composition du projet en composant 
-  Game contenaire du card play qui affiche les resulatant et le refresh game
-  CardPlay affiche l'image du film et de l'acteur en question
-  Home une jolie interface pour avoir envie de jouer
+  - Game contenaire du card play qui affiche les resulatant et le refresh game
+  - CardPlay affiche l'image du film et de l'acteur en question
+  - Home une jolie interface pour avoir envie de jouer
 
 --------------------------------------------Screenshots-----------------------------------------------------------------------
   <img width="558" alt="image" src="https://github.com/user-attachments/assets/d487e598-dc59-457e-bbe6-a3e698db018b" />

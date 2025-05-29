@@ -35,7 +35,11 @@ le front est si simple: développer en reactjs la composition du projet est comm
   - Game contenaire du card play qui affiche les resulatant et le refresh game
   - CardPlay affiche l'image du film et de l'acteur en question
   - Home une jolie interface pour avoir envie de jouer
-
+--------------------------------------------Deploiement-----------------------------------------------------------------------
+dockeriser les deux app front et back et utilisation de nginx plour server les bundles front et en l'utilisant aussi comme reverse proxy
+pour dispatcher les requetes api vers le service du back
+les images docker sont ensuite pusher dans mon registry sur dockerhub pour qu'elles soient pull depuis l'instance EC2
+l'application est donc deployer sur AWS sous l'url : http://ec2-3-85-43-26.compute-1.amazonaws.com/ ( un certificat ssl n'est pas utliser en ce moment )
 --------------------------------------------Screenshots-----------------------------------------------------------------------
   <img width="558" alt="image" src="https://github.com/user-attachments/assets/d487e598-dc59-457e-bbe6-a3e698db018b" />
   <img width="367" alt="image" src="https://github.com/user-attachments/assets/3cd14197-e5e5-4df2-a8b7-477752290035" />

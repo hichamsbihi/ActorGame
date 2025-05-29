@@ -1,11 +1,19 @@
 {
-  "name": "back",
+  "name": "movie-game-back",
   "version": "1.0.0",
+  "description": "The backend service to expose apis of the movie game application",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Hicham Sbihi",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
 }

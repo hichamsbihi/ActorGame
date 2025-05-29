@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const questionApi = createApi({
     reducerPath: 'questionApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:3100/game' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'api/game' }),
     endpoints: (builder) => ({
         // Fetch a question (GET /game/play)
         getQuestion: builder.query({

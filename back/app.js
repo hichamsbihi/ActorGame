@@ -8,7 +8,7 @@ const playRoutes = require("./routes/playRoutes");
 
 app.use(cors());
 app.use(express.json());
-app.use("/game/play", playRoutes);
+app.use("api/game/play", playRoutes);
 
 
 const PORT = process.env.PORT || 3100;

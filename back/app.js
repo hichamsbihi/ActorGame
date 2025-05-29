@@ -2,13 +2,13 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const playRoutes = require("./routes/playRoutes");
+const playRoutes = require("./Routes/playRoutes");
 
 
 
 app.use(cors());
 app.use(express.json());
-app.use("api/game/play", playRoutes);
+app.use("/back", playRoutes);
 
 
 const PORT = process.env.PORT || 3100;

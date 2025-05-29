@@ -5,7 +5,7 @@ const crypto = require('crypto');
 const redisClient = createClient({
     socket: {
         // the default port is 6379 (to look in docker-compose service definition)
-        host: '127.0.0.1'
+        host: 'redis'
     }
 });
 

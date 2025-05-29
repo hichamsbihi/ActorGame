@@ -2,17 +2,17 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const questionApi = createApi({
     reducerPath: 'questionApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'api/game' }),
+    baseQuery: fetchBaseQuery({ baseUrl: '/back' }),
     endpoints: (builder) => ({
         // Fetch a question (GET /game/play)
         getQuestion: builder.query({
-            query: () => '/play',
+            query: () => '/',
         }),
 
         // Submit an answer (POST /game/play)
         submitAnswer: builder.mutation({
             query: ({ questionHash, answer }) => ({
-                url: '/play',
+                url: '/',
                 method: 'POST',
                 body: { questionHash, answer },
             }),

@@ -7,7 +7,6 @@ const {
 const {
     getMovieList,
     getActorsByMovieId,
-    verifyActorInMovie,
     getActors,
 } = require("../Services/tmdbService");
 
@@ -34,10 +33,7 @@ router.get("/", async (req, res) => {
 
         // chose one random movie
         randomMovieIndex = randomIntFromInterval(0, movieList.length - 1);
-
         questionBody.movie = movieList[randomMovieIndex];
-
-
         const movieActorsList = await getActorsByMovieId(questionBody.movie.movieId);
         randomActorIndex = randomIntFromInterval(0, movieActorsList.length - 1);
 

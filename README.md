@@ -1,5 +1,7 @@
 Ce dépôt représente la partie backend du projet Globe Store, un jeu de quiz cinématographique basé sur un concept simple :
+
 --------------------------------------------Backend-----------------------------------------------------------------------
+
 Le joueur voit l’affiche d’un film et la photo d’un acteur, puis doit deviner si cet acteur fait partie du casting du film.
   Le but est d’offrir une expérience ludique et progressive :  
    - Proposer une série de films aléatoires
